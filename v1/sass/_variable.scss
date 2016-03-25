@@ -1,0 +1,7 @@
+$com-zhilizhili-cordova-mobile: (
+) !global;
+
+@function get-com-zhilizhili-cordova-mobile-global-variable($args...) {
+    @return map-deep-get($com-zhilizhili-cordova-mobile, $args...);
+}
+
